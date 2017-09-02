@@ -2,7 +2,7 @@
 layout: home
 permalink: /
 image:
-  feature: open-texture-1600x800.jpg
+  feature: open-texture-1600x800.jpeg
 ---
 
 <div class="tiles">
