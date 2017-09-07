@@ -2,12 +2,15 @@
 
 - title: Home
   url: /
+  
+- title: Articles
+  url: /articles/
+  
+- title: Projects
+  url: /projects/
 
-- title: Getting Started
-  url: /getting-started/
-
+- title: Github
+  url: https://github.com/AlexPutz/
+  
 - title: About
   url: /about/
-
-- title: Terms
-  url: /terms/
