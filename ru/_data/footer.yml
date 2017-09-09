@@ -2,15 +2,15 @@
 
 - title: Home
   url: /
-
+  
 - title: Articles
   url: /articles/
-
+  
 - title: Projects
   url: /projects/
 
 - title: Github
   url: https://github.com/AlexPutz/
-
-- title: Русская версия
-  url: /ru/
+  
+- title: About
+  url: /about/

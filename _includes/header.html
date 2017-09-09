@@ -1,6 +1,10 @@
 <header id="masthead">
   <div class="inner-wrap">
+  {% if page.url contains '/ru/' %}
+    <a href="{{ site.url }}/ru/" class="site-title">{{ site.title }}</a>
+    {% else  %}
     <a href="{{ site.url }}/" class="site-title">{{ site.title }}</a>
+    {% endif %}
     <nav role="navigation" class="menu top-menu">
         {% include navigation.html %}
     </nav>

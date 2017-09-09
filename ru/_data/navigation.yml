@@ -1,0 +1,21 @@
+# Site navigation links
+
+#- title: Getting Started
+#  url: /getting-started/
+#  excerpt: "Everything you need to know to get started with Skinny Bones and Jekyll."
+#  image: 400x250.gif
+
+- title: Заметки
+  url: /articles/
+  excerpt: "Articles."
+  image: paper-note-ipad-76752.jpeg
+
+- title: Проекты
+  url: /projects/
+  excerpt: "My home projects"
+  image: 400x250.gif
+
+- title: Обо мне
+  url: /about/
+  excerpt: "All about Skinny Bones for Jekyll."
+  image: 400x250.gif

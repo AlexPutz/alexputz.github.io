@@ -1,0 +1,19 @@
+# Footer navigation links
+
+- title: Домашняя
+  url: /ru/
+
+- title: Заметки
+  url: /ru/articles/
+
+- title: Проекты
+  url: /ru/projects/
+
+- title: Гитхаб
+  url: https://github.com/AlexPutz/
+
+- title: Обо мне
+  url: /ru/about/
+
+- title: English version
+  url: /

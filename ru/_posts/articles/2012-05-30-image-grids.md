@@ -1,10 +1,10 @@
 ---
 layout: article
-title: "Image Grids"
+title: "Сети изображений"
 date: 2014-05-30T11:51:25-04:00
 modified:
-categories: [articles, en]
-excerpt: "Demoing the various thumbnail grid styles."
+categories: [articles, ru]
+excerpt: "Демонстрация различных стилей сетки эскизов."
 tags: []
 ads: true
 image:

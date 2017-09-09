@@ -1,7 +1,7 @@
 ---
 layout: projects
 title: "Another Media Post with Large Feature Image"
-categories: projects
+categories: [projects, en]
 excerpt: "Custom written post descriptions are the way to go... if you're not lazy."
 share: false
 image:

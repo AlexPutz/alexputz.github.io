@@ -1,7 +1,7 @@
 ---
-layout: media
-title: "Another Media Post with Large Feature Image"
-categories: media
+layout: projects
+title: "Другой почтовый стол с большим функциональным изображением"
+categories: [projects, ru]
 excerpt: "Custom written post descriptions are the way to go... if you're not lazy."
 share: false
 image:

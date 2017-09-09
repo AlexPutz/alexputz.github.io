@@ -1,9 +1,9 @@
 ---
 layout: article
-title: "Video Post Test"
+title: "Тест видеопотока"
 date: 2014-05-31T23:14:02-04:00
 modified:
-categories: [articles, en]
+categories: [articles, ru]
 excerpt: "A post with a YouTube video."
 tags: [video]
 ads: true
