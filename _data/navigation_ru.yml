@@ -9,10 +9,10 @@
 
 - title: Проекты
   url: /ru/projects/
-  excerpt: "My home projects"
+  excerpt: "Мои домашние проекты"
   image: 400x250.gif
 
 - title: Обо мне
   url: /ru/about/
-  excerpt: "All about Skinny Bones for Jekyll."
+  excerpt: "Информация обо мне."
   image: 400x250.gif
