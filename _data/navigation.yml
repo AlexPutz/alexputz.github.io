@@ -12,10 +12,10 @@
 
 - title: Projects
   url: /projects/
-  excerpt: "My home projects"
-  image: 400x250.gif
+  excerpt: "My home projects."
+  image: pexels-photo-316465.jpeg
 
 - title: About
   url: /about/
-  excerpt: "All about Skinny Bones for Jekyll."
+  excerpt: "About me."
   image: 400x250.gif
