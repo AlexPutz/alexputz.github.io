@@ -40,8 +40,8 @@ sudo chown -R $(whoami) /var/lib/gems/1.9.1/
 Установка руби 2.4 на ubuntu 14.04
 ```css
 sudo apt-add-repository ppa:brightbox/ruby-ng
-$ sudo apt-get update
-$ sudo apt-get install ruby2.4
+sudo apt-get update
+sudo apt-get install ruby2.4
 ```
 
 Руби не мог найти хедеры при попытке установить гемы
