@@ -20,6 +20,21 @@ image:
 Иными словами и работе и отдыху отведен фиксированный интервал в пропорции 1 к 5, что позволяет не отвлекаться на вещи не являющиеся 
 частью текущей задачи до наступления перерыва, что в свою очередь позволяет работать с большей концентрацией.
 
+<figure class="third">
+	<a href="{{ site.url }}/images/tyrotimersettings1.png"><img src="{{ site.url }}/images/tyrotimersettings1.png"></a>
+	<a href="{{ site.url }}/images/tyrotimersettings2.png"><img src="{{ site.url }}/images/tyrotimersettings2.png"></a>
+	<a href="{{ site.url }}/images/tyrotimersettings3.png"><img src="{{ site.url }}/images/tyrotimersettings3.png"></a>
+</figure>
+
+<figure class="third">
+	
+	<a href="{{ site.url }}/images/tyrotimersettings4.png"><img src="{{ site.url }}/images/tyrotimersettings4.png"></a>
+	<a href="{{ site.url }}/images/tyrotimersettings5.png"><img src="{{ site.url }}/images/tyrotimersettings5.png"></a>
+	<a href="{{ site.url }}/images/tyrotimerteaser.png"><img src="{{ site.url }}/images/tyrotimerteaser.png"></a>
+	<figcaption>Окна программы.</figcaption>
+</figure>
+
+
 # Ссылки:
 [Проект на гитхаб](https://github.com/AlexPutz/TyroTimer)
 
