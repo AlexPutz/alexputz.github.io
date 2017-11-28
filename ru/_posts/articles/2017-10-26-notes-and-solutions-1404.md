@@ -15,7 +15,7 @@ image:
 <img src="{{ site.url }}/images/notes_and_solutions_1404.png">
 
 При использовании системы ubuntu 14.04 соберу на этой странице решения, пригодится в дальнейшем.
-
+---
 Qt не мог найти хедеры Mesa:
 
 	QtGui/qopengl.h:122:21: fatal error: GL/gl.h: No such file or directory
@@ -26,7 +26,7 @@ Qt не мог найти хедеры Mesa:
 ```css
 sudo apt-get install build-essential libgl1-mesa-dev
 ```
-
+---
 Папка с гемами руби принадлежала руту, что соответственно не позволяло пользователю устанавливать свои гемы в папку.
 
 	ERROR: While executing gem ... 
@@ -38,14 +38,14 @@ sudo apt-get install build-essential libgl1-mesa-dev
 ```css
 sudo chown -R $(whoami) /var/lib/gems/1.9.1/
 ```
-
+---
 Установка руби 2.4 на ubuntu 14.04:
 ```css
 sudo apt-add-repository ppa:brightbox/ruby-ng
 sudo apt-get update
 sudo apt-get install ruby2.4
 ```
-
+---
 Руби не мог найти хедеры при попытке установить гемы:
 
 	mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
@@ -56,8 +56,30 @@ sudo apt-get install ruby2.4
 sudo apt-get install ruby-dev
 sudo apt-get install ruby2.4-dev
 ```
+---
 Virtualbox не имел доступа к usb устройствам компьютера.
 Дать virtualbox linux доступ к usb устройствам пк:
 ```css
 sudo usermod -a -G vboxusers $(whoami)
 ```
+---
+Viber посторонние звуки при использовании функции видео/аудио звонка.
+
+Решение : 
+
+```css
+sudo nano /etc/pulse/default.pa
+
+load-module module-udev-detect <--- эту строчку
+```
+
+исправить и дополнить до:
+```css
+load-module module-udev-detect use_ucm=0 tsched=0
+```
+далее выполнить:
+```css
+killall pulseaudio; rm -r ~/.config/pulse*
+```
+Перезапустить viber.
+---
