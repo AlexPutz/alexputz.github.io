@@ -4,7 +4,7 @@ title: "Заметки, решения"
 categories: [articles, ru]
 modified: 2017-11-11T13:12:22-04:00
 tags: [other]
-excerpt: "Заметки для прочих вещей"
+excerpt: "Заметки для прочих вещей."
 comments: true
 ads: false
 share: true

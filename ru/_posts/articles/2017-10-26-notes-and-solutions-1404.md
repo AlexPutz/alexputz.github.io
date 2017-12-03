@@ -4,7 +4,7 @@ title: "Заметки, решения для ubuntu 14.04"
 categories: [articles, ru]
 modified: 2017-10-26T23:11:40-04:00
 tags: [ubuntu 14.04]
-excerpt: "Заметки для ubuntu 14.04"
+excerpt: "Заметки для ubuntu 14.04."
 comments: true
 ads: false
 share: true

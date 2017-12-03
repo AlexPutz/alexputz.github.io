@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "STextEdit"
-categories: projects
+categories: [projects, ru]
 excerpt: "Простой текстовый редактор (Qt,C++)."
 ads: false
 share: true

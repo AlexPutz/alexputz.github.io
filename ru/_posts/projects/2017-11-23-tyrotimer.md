@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Tyro Timer"
-categories: projects
+categories: [projects, ru]
 excerpt: "Таймер для применения техники помодоро (Qt,C++)."
 ads: false
 share: true
