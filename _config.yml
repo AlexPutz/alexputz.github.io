@@ -26,7 +26,7 @@ plugins:
 
 # Site owner
 owner:
-  name:
+  name: Alex Putz
   email:
   twitter:
   google:
@@ -34,7 +34,7 @@ owner:
     ad-slot:
   bio:
   avatar: bio-photo.jpg # 160x160 px image for author byline
-  disqus-shortname:
+  disqus-shortname: alex-putz
 
 
 include:

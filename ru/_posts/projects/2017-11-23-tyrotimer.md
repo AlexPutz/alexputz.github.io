@@ -2,13 +2,13 @@
 layout: article
 title: "Tyro Timer"
 categories: projects
-excerpt: "Free pomodoro technique timer for linux and windows. (Qt,C++)."
+excerpt: "Таймер для применения техники помодоро (Qt,C++)."
 ads: false
 share: true
 image:
-  feature: TyroTimerPoster.png
   teaser: tyrotimerteaser.png
 ---
+<img src="{{ site.url }}/images/TyroTimerPoster.png">
 
 Простой таймер для применения техники помодоро.
 Техника помодоро - одна из ключевых техник тайм-менеджмента.
