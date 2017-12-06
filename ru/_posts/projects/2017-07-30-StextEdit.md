@@ -4,6 +4,7 @@ title: "STextEdit"
 categories: [projects, ru]
 excerpt: "Простой текстовый редактор (Qt,C++)."
 ads: false
+comments: true
 share: true
 image:
   teaser: stextedit.png

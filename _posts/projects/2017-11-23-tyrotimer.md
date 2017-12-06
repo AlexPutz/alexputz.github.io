@@ -4,6 +4,7 @@ title: "Tyro Timer"
 categories: [projects, en]
 excerpt: "TyroTimer is a desktop application timer for applying Pomodoro Technique.(Qt, C++)"
 ads: false
+comments: true
 share: true
 image:
   teaser: tyrotimerteaser.png

@@ -4,6 +4,7 @@ title: "Tyro Timer"
 categories: [projects, ru]
 excerpt: "Таймер для применения техники помодоро (Qt,C++)."
 ads: false
+comments: true
 share: true
 image:
   teaser: tyrotimerteaser.png

@@ -4,6 +4,7 @@ title: "Modbus Server GUI"
 categories: [projects, en]
 excerpt: "QModbusTcpServer based modbus server app (Qt,C++)."
 ads: false
+comments: true
 share: true
 image:
   teaser: mbserver.png
