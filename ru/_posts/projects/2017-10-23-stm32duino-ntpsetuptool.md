@@ -18,4 +18,4 @@ image:
 # Ссылки:
 [Проект на гитхаб](https://github.com/AlexPutz/stm32dntpsetuptool)
 
-[Проект сервера]()
+[Проект сервера](https://github.com/AlexPutz/stm32dntp)
