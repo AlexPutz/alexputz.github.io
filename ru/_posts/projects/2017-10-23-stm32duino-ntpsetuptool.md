@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Ntpsetuptool"
+title: "Stm32dntpsetuptool"
 categories: [projects, ru]
 excerpt: "Программа для настройки ntp сервера точного времени на базе stm32duino/arduino (Qt,C++)."
 ads: false
