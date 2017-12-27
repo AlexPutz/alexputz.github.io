@@ -82,4 +82,71 @@ load-module module-udev-detect use_ucm=0 tsched=0
 killall pulseaudio; rm -r ~/.config/pulse*
 ```
 Перезапустить viber.
+
 ---
+Opera browser не стартует:
+
+	[1220/222332.597277:FATAL:nss_util.cc(632)] NSS_VersionCheck("3.26") failed. 
+	NSS >= 3.26 is required.
+	Please upgrade to the latest NSS, 
+	and if you still get this error, contact your distribution maintainer.
+	#0 0x000001eb6ed7 <unknown>
+	#1 0x000001ecc3f1 <unknown>
+	#2 0x0000023bdff6 <unknown>
+	#3 0x0000022f9fd5 <unknown>
+	#4 0x00000229c038 <unknown>
+	#5 0x0000021ff443 <unknown>
+	#6 0x0000006a46ca <unknown>
+	#7 0x0000006a4632 <unknown>
+	#8 0x000000793313 <unknown>
+	#9 0x000000caad5d <unknown>
+	#10 0x000001f13170 <unknown>
+	#11 0x000001f0deb3 <unknown>
+	#12 0x7fac7588b184 start_thread
+	#13 0x7fac6f195ffd clone
+
+
+Решение(переустановка пакетов libnss3):
+```css
+sudo apt-get install --reinstall libnss3
+```
+---
+
+Полное удаление Libreoffice:
+```css
+sudo apt-get remove --purge libreoffice*
+sudo apt-get clean
+sudo apt-get autoremove
+```
+---
+
+Установка всех пакетов (например Libreoffice) выполнить в директории с пакетами :
+
+```css
+sudo dpkg -i *
+```
+---
+
+
+Ошибки mime типов:
+
+	Unknown media type in type 'all/all'
+	Unknown media type in type 'all/allfiles'
+	Unknown media type in type 'uri/mms'
+	Unknown media type in type 'uri/mmst'
+	Unknown media type in type 'uri/mmsu'
+	Unknown media type in type 'uri/pnm'
+	Unknown media type in type 'uri/rtspt'
+	Unknown media type in type 'uri/rtspu'
+
+Решение:
+```css
+sudo mv -vi /usr/share/mime/packages/kde.xml /usr/share/mime/packages/kde.xml.bak
+sudo update-mime-database /usr/share/mime
+```
+---
+
+Изменение прав владения файлами со всеми вложенными файлами:
+```css
+sudo chown -R <username> <path>
+```

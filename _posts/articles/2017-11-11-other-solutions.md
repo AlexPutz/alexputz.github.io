@@ -32,3 +32,26 @@ For Tenda W311R V5.07.31_cn the suitable firmware is V5.07.46_en
 
 [Official page](http://www.tendacn.com/en/download/detail-1798.html)
 
+---
+
+Create bootable windows 7 installation usb in ubuntu linux:
+Using standart partition utility(e.g. Gparted or KDE Partition Manager)
+1. Delete partition table.
+2. Create ntfs partition.
+3. Setup boot flag on created partition.
+
+Next:
+Create path for image mounting , then mount windows 7 image,
+copy image content to prepared flash.
+```css
+sudo mkdir /media/iso
+sudo mount <windows7_image_iso>  /media/iso -t udf -o loop
+cp -R /media/iso/* <path_to_flash>
+```
+---
+Configure username and email Git:
+```css
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+```
+---
