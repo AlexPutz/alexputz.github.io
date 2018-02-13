@@ -38,6 +38,6 @@ all distractions are lfet or being moved to the rest interval, and therefore you
 # Links:
 [Project on github](https://github.com/AlexPutz/TyroTimer)
 
-[Windows binaries](/files/TyroTimer_windows.zip)
+[Windows binaries](https://github.com/AlexPutz/alexputz.github.io/raw/master/files/TyroTimer_windows.zip)
 
-[Linux(Debian/Ubuntu)binaries](/files/TyroTimer_deb_ubu.zip)
+[Linux(Debian/Ubuntu)binaries](https://github.com/AlexPutz/alexputz.github.io/raw/master/files/TyroTimer_deb_ubu.zip)

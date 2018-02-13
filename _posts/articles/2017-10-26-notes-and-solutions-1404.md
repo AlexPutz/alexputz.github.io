@@ -36,7 +36,7 @@ The folder with ruby gems was owned by root, and it prevented users gems instala
 Solution:
 Ownership transfer to the current user.
 ```css
-sudo chown -R $(whoami) /var/lib/gems/1.9.1/
+sudo chown -R $(whoami) /var/lib/gems/
 ```
 ---
 Ruby 2.4 installation on ubuntu 14.04:
@@ -53,8 +53,7 @@ Ruby couldnt find headers while trying to install gems:
 Solution :
 Ruby headers installation for ubuntu 14.04.
 ```css
-sudo apt-get install ruby-dev
-sudo apt-get install ruby2.4-dev
+sudo apt-get install ruby-dev ruby2.4-dev
 ```
 ---
 Virtualbox hasnt access to usb devices of the computer.
@@ -149,4 +148,10 @@ sudo update-mime-database /usr/share/mime
 Change ownership of folder and all files in it:
 ```css
 sudo chown -R <username> <path>
+```
+
+ubuntu 14.04 \ linux mint 17 no sound, alsa and headers reinstallation is needed.
+```css
+sudo apt-get install build-essential linux-headers-`uname -r` alsa-base alsa-firmware-loaders alsa-oss alsa-source alsa-tools alsa-tools-gui alsa-utils alsamixergui
+sudo apt-get --purge autoremove linux-headers-`uname -r` && sudo apt-get install linux-headers-`uname -r`
 ```

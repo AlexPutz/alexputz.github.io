@@ -28,7 +28,7 @@ You should install suiatable firmware.
 For Tenda W311R V5.07.31_cn the suitable firmware is V5.07.46_en
 ```
 
-[Download firmware](/files/V5.07.46_en.zip)
+[Download firmware](https://github.com/AlexPutz/alexputz.github.io/raw/master/files/V5.07.46_en.zip)
 
 [Official page](http://www.tendacn.com/en/download/detail-1798.html)
 

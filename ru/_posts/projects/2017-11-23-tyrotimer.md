@@ -39,6 +39,6 @@ image:
 # Ссылки:
 [Проект на гитхаб](https://github.com/AlexPutz/TyroTimer)
 
-[Бинарные файлы Windows](/files/TyroTimer_windows.zip)
+[Бинарные файлы Windows](https://github.com/AlexPutz/alexputz.github.io/raw/master/files/TyroTimer_windows.zip)
 
-[Бинарные файлы Linux(Debian/Ubuntu)](/files/TyroTimer_deb_ubu.zip)
+[Бинарные файлы Linux(Debian/Ubuntu)](https://github.com/AlexPutz/alexputz.github.io/raw/master/files/TyroTimer_deb_ubu.zip)

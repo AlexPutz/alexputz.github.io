@@ -36,7 +36,7 @@ sudo apt-get install build-essential libgl1-mesa-dev
 Решение:
 Передача прав владения папкой текущему пользователю.
 ```css
-sudo chown -R $(whoami) /var/lib/gems/1.9.1/
+sudo chown -R $(whoami) /var/lib/gems/
 ```
 ---
 Установка руби 2.4 на ubuntu 14.04:
@@ -53,8 +53,7 @@ sudo apt-get install ruby2.4
 Решение :
 Установка хедеров руби на ubuntu 14.04.
 ```css
-sudo apt-get install ruby-dev
-sudo apt-get install ruby2.4-dev
+sudo apt-get install ruby-dev ruby2.4-dev 
 ```
 ---
 Virtualbox не имел доступа к usb устройствам компьютера.
@@ -146,7 +145,13 @@ sudo update-mime-database /usr/share/mime
 ```
 ---
 
-Изменение прав владения файлами со всеми вложенными файлами:
+Изменение прав владения со всеми вложенными файлами:
 ```css
 sudo chown -R <username> <path>
+```
+
+ubuntu 14.04 \ linux mint 17 пропадает звук, требуется переустановка альсы и заголовков.
+```css
+sudo apt-get install build-essential linux-headers-`uname -r` alsa-base alsa-firmware-loaders alsa-oss alsa-source alsa-tools alsa-tools-gui alsa-utils alsamixergui
+sudo apt-get --purge autoremove linux-headers-`uname -r` && sudo apt-get install linux-headers-`uname -r`
 ```
