@@ -14,7 +14,7 @@ image:
 ---
 <img src="{{ site.url }}/images/notes_and_solutions_1404.png">
 
-I will collect some notes on this page while using 14.04, it will be useful for me.
+I will collect some notes on this page while using 14.04, maybe it will help you.
 ---
 Qt couldnt find Mesa headers:
 
@@ -83,7 +83,7 @@ killall pulseaudio; rm -r ~/.config/pulse*
 Restart Viber.
 ---
 
-Opera browser doesnt start:
+Opera browser doesn't start:
 
 	[1220/222332.597277:FATAL:nss_util.cc(632)] NSS_VersionCheck("3.26") failed. 
 	NSS >= 3.26 is required.
@@ -155,3 +155,31 @@ ubuntu 14.04 \ linux mint 17 no sound, alsa and headers reinstallation is needed
 sudo apt-get install build-essential linux-headers-`uname -r` alsa-base alsa-firmware-loaders alsa-oss alsa-source alsa-tools alsa-tools-gui alsa-utils alsamixergui
 sudo apt-get --purge autoremove linux-headers-`uname -r` && sudo apt-get install linux-headers-`uname -r`
 ```
+
+---
+
+ASIX 88772 USB Ethernet Adapter on Ubuntu 14.04 Linux
+
+Assumes you have another net connection on this machine. 
+
+Download the driver on another machine and copy over if not.
+
+	mkdir asix
+	cd asix
+	wget http://www.asix.com.tw/FrootAttach/driver/AX88772C_772B_772A_760_772_178_LINUX_DRIVER_v4.20.0_Source.tar.gz
+	tar xvzf *
+	cd AX88772C_772B_772A_760_772_178_LINUX_DRIVER_v4.20.0_Source
+	sudo apt-get install module-assistant
+	sudo module-assistant prepare
+	sudo modprobe -r asix
+	make
+	sudo make install
+	sudo modprobe asix
+
+Your USB network interface should now come up automatically.
+
+[The original for ubuntu 10.10](https://plugable.com/2010/10/18/howto-asix-88178-usb-ethernet-adapter-on-ubuntu-10-10-linux/)
+
+[Alternative driver download link](https://github.com/AlexPutz/alexputz.github.io/raw/master/files/AX88772C_772B_772A_760_772_178_LINUX_DRIVER_v4.20.0_Source.tar.gz)
+
+---

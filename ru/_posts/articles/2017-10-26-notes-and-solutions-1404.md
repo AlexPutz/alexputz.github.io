@@ -155,3 +155,34 @@ ubuntu 14.04 \ linux mint 17 пропадает звук, требуется п�
 sudo apt-get install build-essential linux-headers-`uname -r` alsa-base alsa-firmware-loaders alsa-oss alsa-source alsa-tools alsa-tools-gui alsa-utils alsamixergui
 sudo apt-get --purge autoremove linux-headers-`uname -r` && sudo apt-get install linux-headers-`uname -r`
 ```
+
+
+---
+
+ASIX 88772 USB Адаптер Ubuntu 14.04 Linux
+
+Предполагается, что у Вас есть интернет соединение на этой машине.
+
+Если соединения нет, скачайте файл на машине на которой соединение есть и скопируйте его на эту.
+
+
+	mkdir asix
+	cd asix
+	wget http://www.asix.com.tw/FrootAttach/driver/AX88772C_772B_772A_760_772_178_LINUX_DRIVER_v4.20.0_Source.tar.gz
+	tar xvzf *
+	cd AX88772C_772B_772A_760_772_178_LINUX_DRIVER_v4.20.0_Source
+	sudo apt-get install module-assistant
+	sudo module-assistant prepare
+	sudo modprobe -r asix
+	make
+	sudo make install
+	sudo modprobe asix
+
+
+Далее юсб адаптер должен подняться автоматически.
+
+[Оригинал посвященный ubuntu 10.10](https://plugable.com/2010/10/18/howto-asix-88178-usb-ethernet-adapter-on-ubuntu-10-10-linux/)
+
+[Альтернативная ссылка на драйвер](https://github.com/AlexPutz/alexputz.github.io/raw/master/files/AX88772C_772B_772A_760_772_178_LINUX_DRIVER_v4.20.0_Source.tar.gz)
+
+---
