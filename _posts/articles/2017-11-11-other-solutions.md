@@ -55,3 +55,8 @@ $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
 ```
 ---
+Use exfat filesystem on Ubuntu - linux
+```css
+sudo apt-get install exfat-fuse exfat-utils
+```
+---
