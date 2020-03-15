@@ -1,4 +1,4 @@
-# My personal website https://alexputz.github.io
+# My personal website https://alexputs.github.io
 This website is based on skinny bones jekyll theme. I've added very simple multilingual support and currently working on introducing new content for this pages.
 
 
