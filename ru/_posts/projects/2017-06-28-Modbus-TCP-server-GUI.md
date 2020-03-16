@@ -5,7 +5,7 @@ categories: [projects, ru]
 excerpt: "Modbus сервер построенный на классе QModbusTcpServer (Qt,C++)."
 ads: false
 share: true
-comments: true
+comments: false
 image:
   teaser: mbserver.png
 ---
@@ -24,4 +24,4 @@ image:
 </figure>
 
 # Ссылки:
-[Проект на гитхаб](https://github.com/AlexPutz/Modbus_server)
+[Проект на гитхаб](https://github.com/AlexPuts/Modbus_server)

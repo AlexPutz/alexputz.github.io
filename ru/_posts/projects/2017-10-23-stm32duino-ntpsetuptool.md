@@ -4,7 +4,7 @@ title: "Stm32dntpsetuptool"
 categories: [projects, ru]
 excerpt: "Программа для настройки ntp сервера точного времени на базе stm32duino/arduino (Qt,C++)."
 ads: false
-comments: true
+comments: false
 share: true
 image:
   teaser: ntp_broadcast_setup_tool_ntpservsettings.png
@@ -16,6 +16,6 @@ image:
 Программа позволяет обнаружить сервер в сети, установить ему IP, 
 включить/выключить протоколы, просмотреть информацию.
 # Ссылки:
-[Проект на гитхаб](https://github.com/AlexPutz/stm32dntpsetuptool)
+[Проект на гитхаб](https://github.com/AlexPuts/stm32dntpsetuptool)
 
-[Проект сервера](https://github.com/AlexPutz/stm32dntp)
+[Проект сервера](https://github.com/AlexPuts/stm32dntp)

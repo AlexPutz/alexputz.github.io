@@ -5,10 +5,10 @@ categories: [articles, ru]
 modified: 2017-11-11T13:12:22-04:00
 tags: [other]
 excerpt: "Заметки для прочих вещей."
-comments: true
+comments: false
 ads: false
 share: true
-author: alex_putz
+author: alex_puts
 image:
   teaser: other_solutions.jpeg
 ---
@@ -30,7 +30,7 @@ image:
 Для W311R V5.07.31_cn подходит прошивка V5.07.46_en
 ```
 
-[Скачать прошивку](https://github.com/AlexPutz/alexputz.github.io/raw/master/files/V5.07.46_en.zip)
+[Скачать прошивку](https://github.com/AlexPuts/alexputs.github.io/raw/master/files/V5.07.46_en.zip)
 
 [Официальный сайт](http://www.tendacn.com/en/download/detail-1798.html)
 

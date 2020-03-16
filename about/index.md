@@ -13,5 +13,6 @@ ads: false
 ---
 
 Technological enthusiast.
-I programm on C, C++/Qt in my spare time.
-I do industrial automation, PLC programming and C programming for work.
+I programm in C, C++/Qt in my spare time.
+I do C programming for work.
+In the past I also did industrial automation and PLC programming.

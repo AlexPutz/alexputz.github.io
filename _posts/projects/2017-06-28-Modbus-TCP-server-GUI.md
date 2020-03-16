@@ -4,7 +4,7 @@ title: "Modbus Server GUI"
 categories: [projects, en]
 excerpt: "QModbusTcpServer based modbus server app (Qt,C++)."
 ads: false
-comments: true
+comments: false
 share: true
 image:
   teaser: mbserver.png
@@ -22,4 +22,4 @@ Server register table allows user to input register values, control elements ena
 </figure>
 
 # Links:
-[Project on github](https://github.com/AlexPutz/Modbus_server)
+[Project on github](https://github.com/AlexPuts/Modbus_server)

@@ -4,7 +4,7 @@ title: "Stm32dntpsetuptool"
 categories: [projects, en]
 excerpt: "stm32dntpsetuptool is a program for setting up ntp time server based on stm32duino/arduino (Qt,C++)."
 ads: false
-comments: true
+comments: false
 share: true
 image:
   teaser: ntp_broadcast_setup_tool_ntpservsettings.png
@@ -16,6 +16,6 @@ The server consists of stm32duino blue pill, ethernet module enc28j60, gps modul
 This program helps to discover server in the local network, enable / disable protocols, set server IP,
 monitor auxilary information.
 # Links:
-[Project on github](https://github.com/AlexPutz/stm32dntpsetuptool)
+[Project on github](https://github.com/AlexPuts/stm32dntpsetuptool)
 
-[Server project](https://github.com/AlexPutz/stm32dntp)
+[Server project](https://github.com/AlexPuts/stm32dntp)

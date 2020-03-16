@@ -4,7 +4,7 @@ title: "Tyro Timer"
 categories: [projects, ru]
 excerpt: "Таймер для применения техники помодоро (Qt,C++)."
 ads: false
-comments: true
+comments: false
 share: true
 image:
   teaser: tyrotimerteaser.png
@@ -37,8 +37,8 @@ image:
 
 
 # Ссылки:
-[Проект на гитхаб](https://github.com/AlexPutz/TyroTimer)
+[Проект на гитхаб](https://github.com/AlexPuts/TyroTimer)
 
-[Бинарные файлы Windows](https://github.com/AlexPutz/alexputz.github.io/raw/master/files/TyroTimer_windows.zip)
+[Бинарные файлы Windows](https://github.com/AlexPuts/alexputs.github.io/raw/master/files/TyroTimer_windows.zip)
 
-[Бинарные файлы Linux(Debian/Ubuntu)](https://github.com/AlexPutz/alexputz.github.io/raw/master/files/TyroTimer_deb_ubu.zip)
+[Бинарные файлы Linux(Debian/Ubuntu)](https://github.com/AlexPuts/alexputs.github.io/raw/master/files/TyroTimer_deb_ubu.zip)

@@ -5,10 +5,10 @@ categories: [articles, ru]
 modified: 2017-10-26T23:11:40-04:00
 tags: [ubuntu 14.04]
 excerpt: "Заметки для ubuntu 14.04."
-comments: true
+comments: false
 ads: false
 share: true
-author: alex_putz
+author: alex_puts
 image:
   teaser: notes_and_solutions_1404.png
 ---
@@ -183,6 +183,6 @@ ASIX 88772 USB Адаптер Ubuntu 14.04 Linux
 
 [Оригинал посвященный ubuntu 10.10](https://plugable.com/2010/10/18/howto-asix-88178-usb-ethernet-adapter-on-ubuntu-10-10-linux/)
 
-[Альтернативная ссылка на драйвер](https://github.com/AlexPutz/alexputz.github.io/raw/master/files/AX88772C_772B_772A_760_772_178_LINUX_DRIVER_v4.20.0_Source.tar.gz)
+[Альтернативная ссылка на драйвер](https://github.com/AlexPuts/alexputs.github.io/raw/master/files/AX88772C_772B_772A_760_772_178_LINUX_DRIVER_v4.20.0_Source.tar.gz)
 
 ---

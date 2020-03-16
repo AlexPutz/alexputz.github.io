@@ -4,7 +4,7 @@ title: "Tyro Timer"
 categories: [projects, en]
 excerpt: "TyroTimer is a desktop application timer for applying Pomodoro Technique.(Qt, C++)"
 ads: false
-comments: true
+comments: false
 share: true
 image:
   teaser: tyrotimerteaser.png
@@ -36,8 +36,8 @@ all distractions are lfet or being moved to the rest interval, and therefore you
 
 
 # Links:
-[Project on github](https://github.com/AlexPutz/TyroTimer)
+[Project on github](https://github.com/AlexPuts/TyroTimer)
 
-[Windows binaries](https://github.com/AlexPutz/alexputz.github.io/raw/master/files/TyroTimer_windows.zip)
+[Windows binaries](https://github.com/AlexPuts/alexputs.github.io/raw/master/files/TyroTimer_windows.zip)
 
-[Linux(Debian/Ubuntu)binaries](https://github.com/AlexPutz/alexputz.github.io/raw/master/files/TyroTimer_deb_ubu.zip)
+[Linux(Debian/Ubuntu)binaries](https://github.com/AlexPuts/alexputs.github.io/raw/master/files/TyroTimer_deb_ubu.zip)

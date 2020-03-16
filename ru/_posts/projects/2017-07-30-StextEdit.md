@@ -4,7 +4,7 @@ title: "STextEdit"
 categories: [projects, ru]
 excerpt: "Простой текстовый редактор (Qt,C++)."
 ads: false
-comments: true
+comments: false
 share: true
 image:
   teaser: stextedit.png
@@ -16,5 +16,5 @@ image:
 Класс DocWindow управляет окном текстового редактора, класс Printer позволяет отправлять текст файла на печать.
 
 # Ссылки:
-[Проект на гитхаб](https://github.com/AlexPutz/STextEdit)
+[Проект на гитхаб](https://github.com/AlexPuts/STextEdit)
 

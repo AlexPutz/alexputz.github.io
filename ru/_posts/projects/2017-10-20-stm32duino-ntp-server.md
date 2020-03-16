@@ -4,7 +4,7 @@ title: "Stm32duino ntp server"
 categories: [projects, ru]
 excerpt: "Ntp сервер точного времени на базе stm32duino/arduino."
 ads: false
-comments: true
+comments: false
 share: true
 image:
   teaser: stm32dntp_ide.png
@@ -36,9 +36,9 @@ Modbus TCP (Modpoll):
 <img src="{{ site.url }}/images/stm32dntp_modpoll.png">
 
 # Ссылки:
-[Проект на гитхаб](https://github.com/AlexPutz/stm32dntp)
+[Проект на гитхаб](https://github.com/AlexPuts/stm32dntp)
 
-[Проект  программы настройки сервера](https://github.com/AlexPutz/stm32dntpsetuptool)
+[Проект  программы настройки сервера](https://github.com/AlexPuts/stm32dntpsetuptool)
 
 [Сайт Stm32duino фреймворка](http://stm32duino.com)
 
